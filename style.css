@@ -1,0 +1,77 @@
+/* Settings */
+
+@font-face {
+	font-family: 'LeckerliOne';
+	src: url('fonts/LeckerliOne-Regular.eot');
+	src: local('☺'), url('fonts/LeckerliOne-Regular.woff') format('woff'), url('fonts/LeckerliOne-Regular.ttf') format('truetype'), url('fonts/LeckerliOne-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PollerOne';
+	src: url('fonts/PollerOne.eot');
+	src: local('☺'), url('fonts/PollerOne.woff') format('woff'), url('fonts/PollerOne.ttf') format('truetype'), url('fonts/PollerOne.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+.container_header {
+	box-sizing: border-box;
+	width: 100%;
+	border: solid;
+	padding-top: 44px;
+	padding-bottom: 50px;
+}
+
+.container_nav {
+	box-sizing: border-box;
+	margin: auto;
+	width: 70%;
+	border: solid;
+}
+
+.logo_moustache {
+	display: block;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Navbar */
+
+ul {
+	display: flex;	
+	flex-direction: row;
+	justify-content: center;
+	padding: 0;
+	padding-top: 56px;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	padding: 0 19px;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+.logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
