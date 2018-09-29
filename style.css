@@ -31,7 +31,6 @@ body {
 .container_header {
 	box-sizing: border-box;
 	width: 100%;
-	border: solid;
 	padding-top: 44px;
 	padding-bottom: 50px;
 }
@@ -40,12 +39,10 @@ body {
 	box-sizing: border-box;
 	margin: auto;
 	width: 70%;
-	border: solid;
 }
 
 .logo_moustache {
 	display: block;
-	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -66,12 +63,136 @@ ul li {
 	padding: 0 19px;
 }
 
-ul li a {
+.nav_style {
 	text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
+}
+.nav_style:hover {
+	color: #0ba39c;
 }
 
 .logo {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+/* The beacon */
+
+.background_the_beacon {
+	background: url("media/the-beacon.jpg");
+	height: 554px;
+}
+
+.container_the_beacon {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	height: 554px;
+
+}
+
+.content_the_beacon {
+	box-sizing: border-box;
+	width: 70%;
+	margin-right: auto;
+	margin-left: 41%;
+	margin-top: 8%;
+	text-align: center;
+}
+
+.content_the_beacon p {
+	color: white;
+	background-color: #252525;
+	font-size: 20px;
+	padding: 12px 27px;
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+	padding: 23px 27px 20px;
+	width: 33%;
+	margin: 0;
+	margin-bottom: 18px;
+}
+
+.content_the_beacon a {
+	display: block;
+	padding: 26px 27px 22px;
+	background-color: #0ba39c;
+	text-decoration: none;
+	color: white;
+	margin-top: 15px;
+	width: 11%;
+}
+
+.content_the_beacon a:hover {
+	background-color: #2BBDB5;
+}
+
+.p1 {
+	width: 34%;
+}
+
+.p2 {
+	width: 41%;
+}
+
+.p3 {
+	width: 31%;
+}
+
+/* Images (father, actor, nerd) */
+
+.container_images_index {
+	padding-top: 50px;
+}
+
+.content_images_index {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.content_images_index a {
+	text-decoration: none;
+	color: black;
+}
+
+.container_images_index img {
+	border: solid;
+	border-width: 2px;
+	border-color: #1a1a1a;
+	opacity: 0.8;
+	transition: all, 0.8s;
+}
+
+.container_images_index img:hover {
+	opacity: 1;
+}
+
+.container_images_index p {
+	text-align: center;
+	margin: 0;
+	padding-top: 33px;
+	font-size: 20px;
+}
+
+/* Footer */
+
+.background_color_footer {
+	background-color: #252525;
+	width: 100%;
+	height: 120px;
+	margin-top: 50px;
 }
