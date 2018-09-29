@@ -6,7 +6,7 @@
                     <ul>
                         <li><a href="index.html" class="nav_style">HOME</a></li>
                         <li><a href="about.php" class="nav_style">ABOUT</a></li>
-                        <li><a href="#" class="nav_style">GALLERY</a></li>
+                        <li><a href="gallery.php" class="nav_style">GALLERY</a></li>
                         <li><a href="#" class="nav_style">BLOG</a></li>
                         <li><a href="#" class="nav_style">CONTACT</a></li>
                     </ul>
