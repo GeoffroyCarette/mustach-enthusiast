@@ -26,6 +26,8 @@ body {
 	padding: 0;
 }
 
+/* <----------Index.html----------> */
+
 /* Header */
 
 .container_header {
@@ -272,4 +274,61 @@ h1 {
 	border-top-width: 0;
 	border-left-width: 0;
 	border-right-width: 0;
+}
+
+/* <----------About.php----------> */
+
+/* Main section */
+
+.container_about {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.content_about {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.content_about h1 {
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+	background-color: #1a1a1a;
+	color: white;
+	font-size: 35px;
+	width: 36%;
+	padding: 15px 28px 12px;
+	font-family: none;
+}
+
+.about_para {
+	margin: auto;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 30px 30px 0;
+	width: 56%;
+	line-height: 23px;
+}
+
+.container_about h2 {
+	font-size: 1.17em;
+}
+
+.content_about img {
+	display: block;
+	border: solid;
+	border-width: 2px;
+	border-color: #292929;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
 }
